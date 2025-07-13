@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Admission Form</title>
+  <style>
+    body { font-family: Arial; max-width: 800px; margin: auto; padding: 20px; }
+    label { display: block; margin-top: 10px; font-weight: bold; }
+    input, select, textarea { width: 100%; padding: 8px; margin-top: 4px; }
+    button { margin-top: 20px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h2>Student Admission Form</h2>
+  <form id="studentForm">
+    <label>Student Name (English) *</label>
+    <input type="text" required>
+    
+    <label>Student Name (Hindi) *</label>
+    <input type="text" required>
+
+    <label>Date of Birth *</label>
+    <input type="date" required>
+
+    <label>Gender *</label>
+    <select required>
+      <option>Boy</option>
+      <option>Girl</option>
+    </select>
+
+    <label>Father's Name *</label>
+    <input type="text" required>
+
+    <label>Mother's Name *</label>
+    <input type="text" required>
+
+    <label>Mobile No *</label>
+    <input type="tel" required>
+
+    <label>Secondary Phone</label>
+    <input type="tel">
+
+    <label>Email *</label>
+    <input type="email" required>
+
+    <label>Aadhaar Number *</label>
+    <input type="text" required>
+
+    <label>PEN Number</label>
+    <input type="text">
+
+    <label>Admission Number *</label>
+    <input type="text" required>
+
+    <label>Admission Category</label>
+    <select>
+      <option value="">Select</option>
+      <option>I</option>
+      <option>II</option>
+      <option>III</option>
+      <option>IV</option>
+      <option>V</option>
+    </select>
+
+    <label>UBI Number *</label>
+    <input type="text" required>
+
+    <label>Category *</label>
+    <select required>
+      <option>SC</option>
+      <option>ST</option>
+      <option>OBC</option>
+      <option>General</option>
+    </select>
+
+    <label>Religion *</label>
+    <select required>
+      <option>Hindu</option>
+      <option>Muslim</option>
+      <option>Christian</option>
+      <option>Sikh</option>
+      <option>Jain</option>
+      <option>Other</option>
+    </select>
+
+    <label>Domicile *</label>
+    <select required>
+      <option>Yes</option>
+      <option>NA</option>
+    </select>
+
+    <label>Residence Type *</label>
+    <select required>
+      <option>Urban</option>
+      <option>Rural</option>
+    </select>
+
+    <label>BPL Card *</label>
+    <select required>
+      <option>Yes</option>
+      <option>NA</option>
+    </select>
+
+    <label>Disability</label>
+    <select>
+      <option>Yes</option>
+      <option>NA</option>
+    </select>
+
+    <label>Orphan Status</label>
+    <select>
+      <option>Yes</option>
+      <option>NA</option>
+    </select>
+
+    <label>Father Disability</label>
+    <select>
+      <option>Yes</option>
+      <option>NA</option>
+    </select>
+
+    <label>Mother Disability</label>
+    <select>
+      <option>Yes</option>
+      <option>NA</option>
+    </select>
+
+    <label>Means of Livelihood</label>
+    <select>
+      <option>Govt</option>
+      <option>Private</option>
+      <option>Daily Wager</option>
+      <option>Other</option>
+    </select>
+
+    <label>Father's Occupation *</label>
+    <select required>
+      <option>Farmer</option>
+      <option>Labour</option>
+      <option>Business</option>
+      <option>Other</option>
+    </select>
+
+    <label>Mother's Occupation *</label>
+    <select required>
+      <option>Housewife</option>
+      <option>Labour</option>
+      <option>Govt</option>
+      <option>Private</option>
+      <option>Other</option>
+    </select>
+
+    <label>Family Income (Yearly)</label>
+    <input type="number">
+
+    <label>Address *</label>
+    <textarea required></textarea>
+
+    <label>Ward Name *</label>
+    <input type="text" required>
+
+    <label>Class *</label>
+    <input type="text" required>
+
+    <label>Bank Account Holder Name *</label>
+    <input type="text" required>
+
+    <label>Bank Name *</label>
+    <input type="text" required>
+
+    <label>IFSC Code *</label>
+    <input type="text" required>
+
+    <label>Branch Name *</label>
+    <input type="text" required>
+
+    <label>Account Number *</label>
+    <input type="text" required>
+
+    <label>Confirm Account Number *</label>
+    <input type="text" required>
+
+    <button type="button" onclick="window.print()">Print</button>
+  </form>
+</body>
+</html>
